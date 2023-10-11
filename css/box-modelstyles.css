@@ -1,9 +1,15 @@
 .my-class {
-    margin: 12px;
     border: 2px solid green;
-    padding: 4px;
+    padding: 10px;
     background-color: orange;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    box-sizing: border-box;
 }
+
 
 .box1 {
     width: 50%;
@@ -33,3 +39,10 @@
     margin-bottom: 10px;
     box-sizing: border-box;
 }
+
+.centered-image {
+    margin: auto;
+    width: 50%;
+    height: auto;
+    display: block;
+  }
